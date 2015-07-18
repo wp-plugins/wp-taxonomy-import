@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Check Copy Contents\n"
+"Report-Msgstr-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-06 12:00+0900\n"
+"POT-Creation-Date: 2012-04-19 14:58+0900\n"
+"PO-Revision-Date: 2015-07-17 11:59+0900\n"
+"Last-Translator: Masahiro Nakashima <kanakogi@gmail.com>\n"
+"Language-Team: JAPANESE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: ja_JP\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#
+msgid "Enter the taxonomy you want to add."
+msgstr "追加しタクソノミーを入力してください。"
+
+msgid ""
+"If you want to make a hierarchy, put a -> between the taxonomy and the sub-"
+"taxonomy in one line."
+msgstr ""
+"もし階層を作りたい場合は、1行で親タクソノミーと子親タクソノミーの間に「->」を"
+"入れてください。"
+
+msgid "Example"
+msgstr "例"
+
+msgid ""
+"Define a delimiter here to split the taxonomy name and slug. (default: $)"
+msgstr ""
+"デリミタで区切るとタクソノミー名とスラッグを決めることができます. （デフォル"
+"トのデリミタ: $ ）"
+
+msgid "Secelet Target Taxonomy"
+msgstr "タクソノミーの選択"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Close Preview"
+msgstr "プレビューを閉じる"
+
+msgid "Add Taxonomies"
+msgstr "タクソノミーを追加"
