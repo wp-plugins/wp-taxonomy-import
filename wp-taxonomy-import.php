@@ -72,6 +72,9 @@ if ( !class_exists( "WPTaxonomyImport" ) ) {
 						if ( is_wp_error( $result ) ) {
 							return die( "$catname produced this -> ".$result->get_error_message() );
 						}
+						else {
+							$parent_id = $result['term_id'];
+						}
 						$created_categories[] = $category_name;
 					}
 
