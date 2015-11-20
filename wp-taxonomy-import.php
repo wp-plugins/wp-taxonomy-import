@@ -44,7 +44,7 @@ if ( !class_exists( "WPTaxonomyImport" ) ) {
 					$category = explode( $delimiter, $category );
 					$category_name = $category[0];
 					$category_slug = $category[1];
-					$category_description = ( isset( $category[2] ) ? substr( $category[2], 1, -1 ) : '' );
+					$category_description = ( isset( $category[2] ) ? preg_replace('/"([^"]*)"/', '$1', trim( $category[2] ) ) : '' );
 				}
 				else {
 					$category_name = $category;
